@@ -9,3 +9,7 @@ use a dictionary again, for this one we make sure they are the same length first
 -- TWO SUM -- 
 
 use a dictionary again, we loop through the whole list, we want to check if the target value minus the value of the number on that index already existed in the dictionary or not ? If it does not exist then we add the number on that index into the dictionary. we don't need to think of an edge case as the question specified that there is always going to be a result from the list.
+
+-- GROUP ANAGRAM --
+
+dictionary and the key is an array of the 26 letters and if the letter shows up through that string then you add that index with 1 and keep adding if the letter shows up again. Now we are able to use this keys to store the value which is the string if they have the same key then you put it in as the value inside of the list. result the dictionary.values which are the lists.
