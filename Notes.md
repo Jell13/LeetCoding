@@ -13,3 +13,7 @@ use a dictionary again, we loop through the whole list, we want to check if the 
 -- GROUP ANAGRAM --
 
 dictionary and the key is an array of the 26 letters and if the letter shows up through that string then you add that index with 1 and keep adding if the letter shows up again. Now we are able to use this keys to store the value which is the string if they have the same key then you put it in as the value inside of the list. result the dictionary.values which are the lists.
+
+-- TOP K ELEMENTH --
+
+use a dictionary but mainly to count only the occurence of the number and after using the dictionary. Create a bucket or basically an array of arrays where each index of the array should represent the amount of times that the number occured, we will be traversing this in reverse later on in order to see each of the values if the value of k is still smaller than the length of the list of results then we are able to add it in, if it is the same then we immediately return it.
