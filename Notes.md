@@ -43,3 +43,7 @@ This is the start of using the two pointer methods we aer told to be using two p
 -- 3Sum -- 
 
 Using the concept of two pointers but we also have to have another loop that is enumerating between the index and also the value of the item, We do this because we need 3 pointers instead of the normal 2 pointers. With this tactic we are then able to actually see if the value on the first pointer plus the value on the left pointer and the value on the right pointer will equal to 0, if it does we will decrease r and also increase l and also we will be checking inside of a while loop to just check if the next value for the left pointer will not be the same because if it is then it means that they are not unique as one of the requirements is that we have to have each value inside of the results is all unique.
+
+-- CONTAINER WITH MOST WATER -- 
+
+Using the same concept of two pointers this problem become very easy to understand actually. With left and right we are able to check who is the min between those two, not the value of left and right, but more towards the value at that index will be the one that is computed. By doing this we are able to actually see who the height will actually be and then we are then going to reduce the right with the left this time their actual value so that we will be able to tell the distance between them. Counting this will then allow us to actually count the area and then check the max between the result and the counting and the result was initialized as 0 at the start.
