@@ -47,3 +47,7 @@ Using the concept of two pointers but we also have to have another loop that is 
 -- CONTAINER WITH MOST WATER -- 
 
 Using the same concept of two pointers this problem become very easy to understand actually. With left and right we are able to check who is the min between those two, not the value of left and right, but more towards the value at that index will be the one that is computed. By doing this we are able to actually see who the height will actually be and then we are then going to reduce the right with the left this time their actual value so that we will be able to tell the distance between them. Counting this will then allow us to actually count the area and then check the max between the result and the counting and the result was initialized as 0 at the start.
+
+-- TRAPPING RAIN WATER -- 
+
+This one is a little bit tricky, but it is easy to code. We define two pointers we first check for the max based on the value based on their index left and right like the normal two pointers. We will check which one is more smaller, if the left value based on the left pointer is the smaller than we increment the left pointer and check which one is the max, the current leftmax or the current value of the left pointer, we will do exactly the same with the right side only this time instead of incrementing we will be decrementing. After we do those in each of the conditions we would want to add them up immediately with the result. At the end of it we are only needed to return the result.
